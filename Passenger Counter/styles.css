@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.centerContainer {
+    background-image: url("fumo.jpg");
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.counterContainer {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    padding: 50px 0px 50px 0px;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+}
+.counterContainer button{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 4px;
+}
+#saver {
+    letter-spacing: 15px;
+    background-color: black;
+}
+.incrementBut {
+    background-color: green;
+}
+.saveBut {
+    background-color: red;
+}
+button {
+    transition: 0.2s linear ;
+}
+button:hover {
+    transform: scale(1.1);
+}
+button:active{
+    filter: saturate(10);
+}
+.chooser {
+    color:white;
+}

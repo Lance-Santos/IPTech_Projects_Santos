@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="java.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="centerContainer">
+        <div class="scoreboard">
+            <div class="homeScoreboard mainSB">
+                <h1>Home</h1>
+                <h1 class="scoreMain" id="scoreHandler">0</h1>
+                <div class="buttonCollection">
+                    <input type="button" onclick="addHomeOne()"value="+1">
+                    <input type="button" onclick="addHomeTwo()"value="+2">
+                    <input type="button"onclick="addHomeThree()" value="+3">
+                </div>
+            </div>
+            <div class="guestScoreboard mainSB">
+                <h1>Guest</h1>
+                <h1 class="scoreMain" id="scoreHandlerGuest">0</h1>
+                <div class="buttonCollection">
+                    <input type="button" onclick = "addGuestOne()"value="+1">
+                    <input type="button" onclick = "addGuestTwo()"value="+2">
+                    <input type="button" onclick = "addGuestThree()"value="+3">
+                </div>
+            </div>
+            
+        </div>
+        <div class="leadTeam">
+            <h2>Leading Team</h2>
+            <h1 id="leadingTeam">-</h1>
+            <br>
+            <br>
+            <a class="chooser" href="../index.html">←Go back</a>
+        </div>
+        
+    </div>
+    <div class="fumoContainer">
+        <img class="fumoBall" src="fumo.png" alt="Funny fumo!">
+    </div>
+</body>
+</html>
